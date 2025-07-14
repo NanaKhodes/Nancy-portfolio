@@ -1,7 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
 import Quotely from "../../assets/quotely.png";
 import Counter from "../../assets/counter.png";
-import Note from "../../assets/note.png";
+import Zeus from "../../assets/thunderboolt.jpg"
 import Toodles from "../../assets/Toodles.png";
 import ProjectCard from "../../common/ProjectCard";
 
@@ -29,10 +29,10 @@ function Projects() {
           p="Todo App"
         />
         <ProjectCard
-          src={Note}
-          link="https://github.com/NanaKhodes/Nancy-notes"
-          h3="Notely"
-          p="Notes App"
+          src={Zeus}
+          link="https://github.com/NanaKhodes/movie_app"
+          h3="Zeus"
+          p="Zeus Movie App"
         />
       </div>
     </section>
